@@ -1,6 +1,6 @@
 using System;
 
-namespace Dealership {
+namespace CarDealership.Models {
   class Car
   {
     private string MakeModel;

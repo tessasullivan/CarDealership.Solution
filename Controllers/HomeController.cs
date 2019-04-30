@@ -1,5 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
-using ToDoList.Models;
+using CarDealership.Models;
 using System.Collections.Generic;
 
 namespace CarDealership.Controllers
@@ -8,10 +8,13 @@ namespace CarDealership.Controllers
   {
 
     [HttpGet("/")]
-    public ActionResult Index()
-    {
-        return View();
-        // return new EmptyResult();
-    }
+    public string Hello() { return "Hello friend!"; }
+
+    // public ActionResult Index()
+    // {
+
+    //     return View();
+    //     // return new EmptyResult();
+    // }
   }
 }
