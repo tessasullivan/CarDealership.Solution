@@ -8,13 +8,13 @@ namespace CarDealership.Controllers
   {
 
     [HttpGet("/")]
-    public string Hello() { return "Hello friend!"; }
+    // public string Hello() { return "Hello friend!"; }
 
-    // public ActionResult Index()
-    // {
+    public ActionResult Index()
+    {
 
-    //     return View();
-    //     // return new EmptyResult();
-    // }
+        return View();
+        // return new EmptyResult();
+    }
   }
 }
