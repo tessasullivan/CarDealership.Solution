@@ -13,7 +13,7 @@ namespace CarDealership.Controllers
         return View(allCars);
     }
     [HttpGet("/cars/new")]
-    public ActionResult form()
+    public ActionResult CreateForm()
     {
         return View();
     }
